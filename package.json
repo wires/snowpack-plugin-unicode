@@ -1,0 +1,15 @@
+{
+  "name": "snowpack-plugin-unicode",
+  "version": "1.0.0",
+  "description": "Snowpack plugin to load file with unicode text directly into a javascript string.",
+  "main": "snowpack-plugin-unicode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snowpack",
+    "unicode"
+  ],
+  "author": "Jelle 'wires' Herold <jelle@defekt.nl",
+  "license": "MPL-2.0"
+}
