@@ -22,8 +22,8 @@ And to your `snowpack.config.json` add
 {
     "plugins": [
         ["snowpack-plugin-unicode", {
-            inputExtensions: [".md", ".csv.txt" ],
-            inputEncoding: "utf-8"
+            "inputExtensions": [".md", ".csv.txt" ],
+            "inputEncoding": "utf-8"
         }]
     ]
 }
