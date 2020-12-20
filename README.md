@@ -19,13 +19,12 @@ npm install -D snowpack-plugin-unicode
 And to your `snowpack.config.json` add
 
 ```json
-{ // snowpack.config.json
+{
     "plugins": [
         ["snowpack-plugin-unicode", {
             inputExtensions: [".md", ".csv.txt" ],
             inputEncoding: "utf-8"
         }]
-        /* ... rest of your plugins */
     ]
 }
 ```
